@@ -1,0 +1,31 @@
+{
+  "name": "mikey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanPatel07/mikey-showroom-server.git"
+  },
+  "author": "Mikey07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanPatel07/mikey-showroom-server/issues"
+  },
+  "homepage": "https://github.com/amanPatel07/mikey-showroom-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
